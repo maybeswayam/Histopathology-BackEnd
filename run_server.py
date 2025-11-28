@@ -25,7 +25,7 @@ def main():
             print(f"- {path}")
         print("\nServer will still start.")
 
-    # PORT for Railway
+    # Railway dynamic PORT
     port = int(os.getenv("PORT", 8000))
 
     print("Starting Histopathology Cancer Detection API server...")
@@ -37,7 +37,7 @@ def main():
             "app:app",
             host="0.0.0.0",
             port=port,
-            reload=False,
+            reload=False,   # IMPORTANT
             log_level="info"
         )
     except Exception as e:
