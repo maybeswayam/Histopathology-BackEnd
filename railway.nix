@@ -2,5 +2,8 @@
   deps = [
     pkgs.libglvnd
     pkgs.glib
+    pkgs.libxext
+    pkgs.libxrender
+    pkgs.libsm
   ];
 }
