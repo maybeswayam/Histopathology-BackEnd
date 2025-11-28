@@ -5,5 +5,6 @@
     pkgs.libxext
     pkgs.libxrender
     pkgs.libsm
+    pkgs.libice
   ];
 }
